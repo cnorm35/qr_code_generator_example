@@ -3,8 +3,8 @@
     <strong class="block font-medium mb-1">Url:</strong>
     <%= qr_code.url %>
     <%= image_tag qr_code.logo %>
-    <%= image_tag qr_code.original_image %>
-    <%= image_tag qr_code.combined_image %>
+    <%= image_tag qr_code.original_image if qr_code.original_image.attached? %>
+    <%= image_tag qr_code.combined_image if qr_code.combined_image.attached? %>
   </p>
 
 </div>

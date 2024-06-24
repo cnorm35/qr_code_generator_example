@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+`bin/setup` to install dependencies and create the database.
 
-Things you may want to cover:
+`bin/rails db:seed` to seed the database with an example QR code.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+see `db/seeds.rb` for an example of creating a QR code without the form.
